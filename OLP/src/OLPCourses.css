@@ -1,0 +1,87 @@
+/* OLPCourses.css */
+
+* {
+    margin: 0;
+    border: 0;
+}
+
+.hh {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.lessons {
+    margin-bottom: 20px;
+}
+
+.lesson-item {
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.prog {
+    border: 2px blue solid;
+    width: 20%;
+    height: 40%;
+}
+
+.lessons h2 {
+    color: #007bff;
+    margin-left: 2%;
+    font-size: 35px;
+    margin-bottom: 1%;
+}
+
+.lessons li {
+    background-color: lightskyblue;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    margin-bottom: 1.5%;
+    width: 55%;
+    border: 2px black solid;
+    border-radius: 10px;
+    margin-left: 3%;
+}
+
+.lessons label {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+.tot{
+    padding-bottom:1.5%;
+    background-image:url('https://th.bing.com/th/id/R.de901fec6b7c872c4f2c708668bcefd5?rik=qAE71zIOEM5jAg&riu=http%3a%2f%2fwww.brandgradients.com%2fimg%2fbackgrounds%2flight-blue-gradient-background.png&ehk=0COdl7CCN1P6obtHA%2bHzEXn8gXb1Km8oc%2bQSdewfl4Q%3d&risl=&pid=ImgRaw&r=0');
+}
+.lessons input[type="checkbox"] {
+    margin-right: 5px;
+    width: 20px;
+    padding: 5px 5px;
+    transform: scale(1.7); 
+    margin-right:3%;
+}
+
+.butt {
+    margin-left: 20%;
+}
+
+.btn {
+    margin-right: 2%;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bk{
+    margin-left:50%;
+    padding:20px 20px;
+    background-color: orangered;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
